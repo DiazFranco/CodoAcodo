@@ -1,0 +1,60 @@
+body{
+    margin:0;
+    background: white;
+    background-image: url('https://www.xtrafondos.com/wallpapers/montanas-con-nieve-976.jpg');
+  }
+  img {
+    height:50px;
+  }
+  .menu {
+    background: black;
+    height: 60px;
+    border-bottom: 1px solid black;
+    display:flex;
+    justify-content: space-between;
+  }
+  .menu a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    flex: 1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu a:hover{
+    background: gray;
+    color: black;
+  }
+  .a-1{
+    background: #686565;
+  }
+  /*Encabezado*/
+  .main-section{
+    height: 600px;
+    width: 100%;
+    position: relative;
+    background-size:cover;
+  }
+  .overlay {
+    /*background: #ff00003d;*/
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+  }
+  .logos {
+    margin-left:15px;
+  }
+  .let-white{
+    color:white;
+    margin-bottom:50px;
+  }
+  .espace {
+      margin-left:25%;
+  }
+  .content {
+    margin: 0 50 0 50
+  }
